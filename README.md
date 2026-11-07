@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <strong>Business Intelligence · Data Analytics · Predictive Insights · SaaS</strong>
+  <strong>Business Intelligence | Data Analytics | Predictive Insights | SaaS</strong>
 </p>
 
 ---
@@ -238,24 +238,23 @@ PERDICIA is designed around a subscription-based B2B SaaS business model.
 
 The proposed commercial offering consists of three plans.
 
-
 ### Pricing Comparison
 
 | Feature | Starter | Pro | Business |
 |---|:---:|:---:|:---:|
-| CSV & Excel Import | ✓ | ✓ | ✓ |
-| Sales Dashboard | ✓ | ✓ | ✓ |
-| Sales Analysis | ✓ | ✓ | ✓ |
-| Business Indicators | ✓ | ✓ | ✓ |
-| Simple Reports | ✓ | ✓ | ✓ |
-| Forecasting | — | ✓ | ✓ |
-| Stock Alerts | — | ✓ | ✓ |
-| AI-Assisted Recommendations | — | ✓ | ✓ |
-| Automated Reporting | — | ✓ | ✓ |
-| Multiple Users & Stores | — | — | ✓ |
-| Advanced Analysis | — | — | ✓ |
-| Custom Exports | — | — | ✓ |
-| Priority Support | — | — | ✓ |
+| CSV & Excel Import | Yes | Yes | Yes |
+| Sales Dashboard | Yes | Yes | Yes |
+| Sales Analysis | Yes | Yes | Yes |
+| Business Indicators | Yes | Yes | Yes |
+| Simple Reports | Yes | Yes | Yes |
+| Forecasting | No | Yes | Yes |
+| Stock Alerts | No | Yes | Yes |
+| AI-Assisted Recommendations | No | Yes | Yes |
+| Automated Reporting | No | Yes | Yes |
+| Multiple Users & Stores | No | No | Yes |
+| Advanced Analysis | No | No | Yes |
+| Custom Exports | No | No | Yes |
+| Priority Support | No | No | Yes |
 
 *Commercial pricing and plan features represent the proposed SaaS offering. The current pricing interface is a prototype; real payments, accounts, subscription enforcement, and plan-specific access controls are not yet implemented.*
 
@@ -399,7 +398,7 @@ The project demonstrates how software engineering and data analytics can work to
 </p>
 
 <p align="center">
-  Business Intelligence · Data Analytics · Predictive Insights
+  Business Intelligence | Data Analytics | Predictive Insights
 </p>
-#   p e r d i c i a  
+ 
  
