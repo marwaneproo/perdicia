@@ -30,6 +30,11 @@ Instead of spending hours manually exploring spreadsheets and preparing reports,
 **Our vision: make data more understandable, analytics more accessible, and business decisions more intelligent.**
 
 ---
+## System Architecture
+
+<p align="center">
+  <img src="photo/architecture.png" alt="PERDICIA End-to-End Architecture" width="100%">
+</p>
 
 ## 2. Platform Preview
 
