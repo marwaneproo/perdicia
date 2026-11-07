@@ -13,6 +13,7 @@ def _predict(history: list[float]) -> float:
 def forecast(df, mapping) -> dict:
     monthly = monthly_revenue(df, mapping)
     method = (
+        
         "Three-month trailing moving-average baseline, iterated one period at a time. "
         "It uses monthly totals for a detected revenue field, has no seasonality or external-variable model, "
         "Months with no rows are filled as zero; that can mean missing coverage rather than zero activity. "
