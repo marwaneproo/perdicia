@@ -400,5 +400,3 @@ The project demonstrates how software engineering and data analytics can work to
 <p align="center">
   Business Intelligence | Data Analytics | Predictive Insights
 </p>
- 
- 
