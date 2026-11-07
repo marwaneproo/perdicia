@@ -1,0 +1,14 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+backend/storage/*
+!backend/storage/.gitkeep
+logs/
+*.zip
+.env
+frontend/tsconfig.tsbuildinfo
+.start-project.bat
+stop-project.bat
+
