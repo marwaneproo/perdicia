@@ -50,6 +50,7 @@ def forecast(df, mapping) -> dict:
         future.append({"month": (last_period + offset).strftime("%Y-%m"), "forecast": round(prediction, 2)})
         
     return {
+        
         "available": True,
         "method": method,
         "history_months": len(monthly),
