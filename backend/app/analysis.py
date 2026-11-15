@@ -6,6 +6,7 @@ import unicodedata
 import numpy as np
 import pandas as pd
 
+
 # Deliberately avoid ambiguous labels such as "amount", "total" and "value".
 # Names are suggestions; an inferred role should never be treated as ground truth.
 ALIASES = {
