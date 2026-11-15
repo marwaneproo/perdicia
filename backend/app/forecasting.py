@@ -40,6 +40,7 @@ def forecast(df, mapping) -> dict:
     nonzero = [(actual, predicted) for actual, predicted in zip(actuals, predictions) if actual != 0]
     mape = (sum(abs(actual - predicted) / abs(actual) for actual, predicted in nonzero) / len(nonzero) * 100) if nonzero else None
 
+    
     future_values = list(values)
     last_period = monthly["period"].iloc[-1]
     hist = [{"month": row.month, "actual": round(float(row.revenue), 2), "forecast": None} for row in monthly.itertuples()]
