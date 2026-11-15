@@ -25,6 +25,7 @@ def _spreadsheet_safe(df: pd.DataFrame) -> pd.DataFrame:
 
 def csv_bytes(df: pd.DataFrame) -> bytes:
     return _spreadsheet_safe(df).to_csv(index=False).encode("utf-8-sig")
+    
 
 
 def _style(ws):
