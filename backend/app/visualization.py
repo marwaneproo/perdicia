@@ -93,6 +93,7 @@ def build_charts(df: pd.DataFrame, mapping: dict) -> dict:
                     f"{dimension} has {df[dimension].nunique(dropna=True)} distinct groups; {measure} is shown as a {aggregation.lower()} within each group.",
                     "name", [measure], data, dimension, f"{aggregation} {measure}", "vertical",
                 ))
+                
                 shares = totals if additive else grouped
                 if 2 <= len(shares) <= 6 and (shares >= 0).all() and shares.sum() > 0:
                     pie_data = [{"name": str(name), measure: _round(value)} for name, value in shares.items()]
