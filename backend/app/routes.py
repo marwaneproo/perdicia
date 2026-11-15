@@ -18,6 +18,7 @@ from .forecasting import forecast
 from .insights import build_insights
 from .visualization import build_charts
 
+
 log = logging.getLogger("intellibi")
 router = APIRouter(prefix="/api")
 
