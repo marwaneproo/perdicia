@@ -19,6 +19,7 @@ def forecast(df, mapping) -> dict:
         "Months with no rows are filled as zero; that can mean missing coverage rather than zero activity. "
         "It must not be treated as a guaranteed outcome."
     )
+    
     if monthly is None:
         return {"available": False, "reason": "Forecasting requires a detected date and revenue field.", "method": method}
     if len(monthly) < MIN_MONTHS:
