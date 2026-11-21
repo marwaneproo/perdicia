@@ -186,6 +186,7 @@ def quality(raw: pd.DataFrame) -> dict:
                     "min": float(values.min()), "max": float(values.max()),
                     "mean": float(values.mean()), "median": float(values.median()),
                 }
+                
                 if len(values) >= 10:
                     q1, q3 = values.quantile([0.25, 0.75])
                     iqr = q3 - q1
