@@ -30,6 +30,7 @@ def build_insights(raw, df, mapping) -> list:
                 if n_outliers:
                     add("fact", "Potential outliers", f"{n_outliers:,} values in {column} fall outside the 1.5×IQR rule. This is a review signal, not proof of incorrect data.", "warning")
                     add("recommendation", "Review flagged values", f"Inspect the unusual {column} records against their source before excluding or changing them.")
+                    
 
     dimension = mapping.get("category") or mapping.get("product") or mapping.get("region")
     if dimension and measures:
